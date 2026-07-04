@@ -1,0 +1,36 @@
+{
+    "date_range": {
+        "start": "2010-01-01",
+        "end": "2025-12-31"
+    },
+    "exclusions": [
+        "META pre-IPO (before 18th of May 2012)"
+    ],
+    "adjustments": "yfinance auto_adjust=True (Splits & Dividends)",
+    "quality_checks": {
+        "AAPL": {
+            "unexpected_nulls": 0,
+            "duplicate_indexes": 0,
+            "masked_days": 0,
+            "preserved_partial_days": 0
+        },
+        "META": {
+            "unexpected_nulls": 0,
+            "duplicate_indexes": 0,
+            "masked_days": 0,
+            "preserved_partial_days": 0
+        },
+        "MSFT": {
+            "unexpected_nulls": 0,
+            "duplicate_indexes": 0,
+            "masked_days": 0,
+            "preserved_partial_days": 0
+        },
+        "TSLA": {
+            "unexpected_nulls": 0,
+            "duplicate_indexes": 0,
+            "masked_days": 0,
+            "preserved_partial_days": 0
+        }
+    }
+}
