@@ -156,14 +156,4 @@ Honest accounting of the open questions this version leaves on the table:
 
 ---
 
-## Recommended Next Steps
-
-1. Run walk-forward validation across multiple chronological folds before drawing conclusions about robustness.
-2. Add the 200-day trend filter as a permanent gate (not just an optional column) and re-evaluate performance during the 2022 bear market, where false re-entries were the primary source of loss.
-3. Test the volatility-targeted sizing overlay as the default portfolio construction method — if Sharpe improves without a proportional CAGR sacrifice, it is likely the superior production approach.
-4. Extend the universe to a broader, sector-diverse set of tickers with point-in-time membership data to eliminate survivorship bias.
-5. Replace the bootstrap Monte Carlo with a block-bootstrap or GARCH-based simulation to better capture volatility clustering and regime persistence.
-
----
-
 *The framework is designed to be interrogated. Every design decision — the stop type, the lag, the cost model, the split ratio — is a hypothesis. The right response to these results is not to deploy the strategy; it is to keep asking harder questions.*
